@@ -88,11 +88,11 @@
           <th>Social Security Number<span>*</span></th>
           <!-- Added Regex -->
           <td colspan="2"><input type="text" name="ssn" id="ssn" required placeholder="nnn-nn-nnnn"
-              pattern="[0-9]{3}\-[0-9]{2}\-[0-9]{4}" /></td>
+              pattern="\d{3}-\d{2}-\d{4}" /></td>
           <th>Project<span>*</span></th>
           <!-- Added Regex -->
           <td><input type="text" name="projID" id="projID" required placeholder="PROJ-xx-ddd"
-              pattern="(PROJ)\-[a-z]{2}\-[0-9]{3}" /></td>
+              pattern="(PROJ)-[a-z]{2}-[0-9]{3}" /></td>
         </tr>
       </table>
 
